@@ -26,8 +26,8 @@ resource "aws_security_group" "example_sg" {
 
   ingress {
     description      = "Hulft Test"
-    from_port        = 30000
-    to_port          = 30000
+    from_port        = 31000
+    to_port          = 31000
     protocol         = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
   }
